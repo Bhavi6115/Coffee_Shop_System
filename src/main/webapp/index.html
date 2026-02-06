@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Shop POS</title>
+</head>
+<body>
+
+<h1>☕ Coffee Shop POS</h1>
+
+<form action="order" method="post">
+    <label>Coffee:</label>
+    <select name="coffee">
+        <option value="Espresso">Espresso</option>
+        <option value="Latte">Latte</option>
+        <option value="Cappuccino">Cappuccino</option>
+    </select>
+    <br><br>
+
+    <label>Quantity:</label>
+    <input type="number" name="quantity" required>
+    <br><br>
+
+    <label>Price:</label>
+    <input type="number" name="price" required>
+    <br><br>
+
+    <button type="submit">Place Order</button>
+</form>
+
+</body>
+</html>
