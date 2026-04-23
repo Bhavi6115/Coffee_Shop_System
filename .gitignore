@@ -1,0 +1,26 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Build outputs
+build/
+target/
+
+# Tomcat (if any local config)
+.smarttomcat/
+
+# Compiled classes
+*.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MySQL connector (optional – keep if you want, but it's large)
+# lib/mysql-connector-j-8.0.35.jar
